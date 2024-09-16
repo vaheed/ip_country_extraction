@@ -14,7 +14,7 @@ Requirements:
     - requests library
 
 Author:
-    Your Name
+    vaheeD khoshnouD
 """
 
 import requests

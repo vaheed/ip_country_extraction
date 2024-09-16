@@ -43,15 +43,16 @@ The **IP Range Extractor** is a Python-based tool designed to download, parse, a
 ```bash
 git clone https://github.com/vaheed/ip_country_extraction.git
 cd ip-extractor
+```
 
 ### Build the Docker
 
 ```bash
 docker build -t ip-extractor .
-
+```
 
 ### Run the Docker
 
 ```bash
 docker run --rm -v $(pwd)/output:/app/output ip-extractor --country=ir
-
+```
